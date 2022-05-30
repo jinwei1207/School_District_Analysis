@@ -2,7 +2,7 @@
 
 
 ## Purpose
-The purpose of this project is to evaluate the math and reading grades for Thomas High School students. A key dataset utilized in evaluating the analysis, indicates that there is evidence of academic dishonesty, as the grades for ninth grade students appear to have been altered. In an effort to uphold state-testing standards, a comparative analysis will be completed which will indicate whether replacing math and reading scores for Thomas High School ninth grade students with NaNs, which means ‘not a number’ and cannot be equal, will affect the overall analysis.
+The purpose of this project is to evaluate the math and reading grades for Thomas High School students. A key dataset  analysis indicates that there is evidence of academic dishonesty, as the grades for ninth grade students appear to have been altered. In an effort to uphold state-testing standards, a comparative analysis will be completed which will indicate whether replacing math and reading scores for Thomas High School ninth grade students with NaNs, which means ‘not a number’ and cannot be equal, will affect the overall analysis.
 
 
 ## PythonData Environment
@@ -44,12 +44,12 @@ Removing the 9th grade students from the data set had a huge impact by dropping 
 In the original analysis, Thomas High School ranked 2nd in the district raising red flags with the school board. 
 
 Original Analysis:
-![Pic 5](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/1_top_5_schools.PNG)
+<img width="1103" alt="image" src="https://user-images.githubusercontent.com/104603177/171008957-0163d885-c7be-4de3-ae87-8d8e535d1c7e.png">
 
 After adjusting the 9th grade data, Thomas High School ranked in the exact middle of 15 campuses at 8th from the bottom. 
 
 Adjusted Analysis:
-![Pic 6](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/2_bottom_8_schools.PNG)
+![image](https://user-images.githubusercontent.com/104603177/171008316-6c393083-c843-47b5-9c08-fae7cfbee8d8.png)
 
 ## How does replacing the ninth-grade scores affect the following:
 
@@ -59,19 +59,21 @@ In the original analysis, Thomas High School had 83.6 math average and 83.7 read
 Now the scores have been replaced with null values and shows up in Python programming as NaN in the following charts. 
 
 Adjusted Average Math Scores ----------------------------------------------------- Adjusted Average Reading Scores: 
+![image](https://user-images.githubusercontent.com/104603177/171009233-ba8abb95-06ad-4391-920f-839f69b6fcb6.png)
+![image](https://user-images.githubusercontent.com/104603177/171009273-f4a118c0-7eee-4239-90c3-bef2caabc780.png)
 
-![Pic 7](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/2_math_by_grade_HS.PNG)
-![Pic 8](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/2_read_by_grade_HS_correct.PNG)
+
+
 
 ### Scores by school spending
 
 Thomas High School falls in the $630-$644/student spending range.  However, the hundredths place was needed to see the nominal changes. 
 
 Original Analysis:
-![Pic 9](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/1_spend_updated.PNG)
+![image](https://user-images.githubusercontent.com/104603177/171009444-0217afcd-5e7f-4963-a525-d9f08e7eed1f.png)
 
 Adjusted Analysis:
-![Pic 10](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/2_spending_updated.PNG)
+![image](https://user-images.githubusercontent.com/104603177/171009470-ad7fccb2-7bd8-4856-93cc-a52436ea3623.png)
 
 There was very little spending impact by changing the 9th grade scores. 
 
@@ -79,10 +81,10 @@ There was very little spending impact by changing the 9th grade scores.
 Thomas High School is defined as a medium sized school.  The hundredths place was needed to see the nominal changes.
 
 Original Analysis:
-![Pic 11](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/1_size_updated.PNG)
+![image](https://user-images.githubusercontent.com/104603177/171009618-b270419d-cdea-426b-931d-52cfc2f78d50.png)
 
 Adjusted Analysis:
-![Pic 12](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/2_size_updated.PNG)
+![image](https://user-images.githubusercontent.com/104603177/171009650-91ac4b97-2e2b-4577-b396-f4064d05257d.png)
 
 There was very little impact by campus size due to changing the 9th grade scores. 
 
@@ -91,10 +93,10 @@ There was very little impact by campus size due to changing the 9th grade scores
 Thomas High School is a charter school type. The hundredths place was needed to see the nominal changes.
 
 Original Analysis:
-![Pic 13](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/1_type_updated.PNG)
+![image](https://user-images.githubusercontent.com/104603177/171009787-2b5552bb-b6cf-446e-a41f-7e762bddd53e.png)
 
 Adjusted Analysis:
-![Pic 14](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/2_type_updated.PNG)
+![image](https://user-images.githubusercontent.com/104603177/171009824-adc0a9ca-a31e-4ea9-be13-56e11ec25150.png)
 
 There was very little impact by school type by changing the 9th grade scores. 
 
