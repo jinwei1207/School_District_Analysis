@@ -27,7 +27,8 @@ The purpose of this project is to evaluate the math and reading grades for Thoma
 ### How is the district summary affected?
 
 Adjusted Analysis:
-![Pic 2](https://github.com/Baylex/School_District_Analysis/blob/main/Resources/2_dist_sum_2_decimals.PNG)
+<img width="830" alt="image" src="https://user-images.githubusercontent.com/104603177/171021329-5936951e-c3dc-40a3-8299-25d670b062ef.png">
+
 
 When comparing the two charts, removing less than 500 test scores had a nominal impact on the almost 40,000 student data set.  The change was less than a 1% difference and the numbers would still round to the same whole number.  
 
